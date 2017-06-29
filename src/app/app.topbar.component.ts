@@ -17,7 +17,7 @@ import {AppComponent} from './app.component';
                 <a id="topbar-menu-button" href="#" (click)="app.onTopbarMenuButtonClick($event)">
                     <i class="material-icons">menu</i>
                 </a>
-                <ul class="topbar-items animated fadeInDown" [ngClass]="{'topbar-items-visible': app.topbarMenuActive}">
+                <ul  style="display:none;" class="topbar-items animated fadeInDown" [ngClass]="{'topbar-items-visible': app.topbarMenuActive}">
                     <li #profile class="profile-item" *ngIf="app.profileMode==='top'||app.isHorizontal()"
                         [ngClass]="{'active-top-menu':app.activeTopbarItem === profile}">
 
@@ -26,32 +26,7 @@ import {AppComponent} from './app.component';
                             <span class="topbar-item-name">Jane Williams</span>
                         </a>
                         
-                        <ul class="ultima-menu animated fadeInDown">
-                            <li role="menuitem">
-                                <a href="#">
-                                    <i class="material-icons">person</i>
-                                    <span>Profile</span>
-                                </a>
-                            </li>
-                            <li role="menuitem">
-                                <a href="#">
-                                    <i class="material-icons">security</i>
-                                    <span>Privacy</span>
-                                </a>
-                            </li>
-                            <li role="menuitem">
-                                <a href="#">
-                                    <i class="material-icons">settings_applications</i>
-                                    <span>Settings</span>
-                                </a>
-                            </li>
-                            <li role="menuitem">
-                                <a href="#">
-                                    <i class="material-icons">power_settings_new</i>
-                                    <span>Logout</span>
-                                </a>
-                            </li>
-                        </ul>
+                       zzzz
                     </li>
                     <li #settings [ngClass]="{'active-top-menu':app.activeTopbarItem === settings}">
                         <a href="#" (click)="app.onTopbarItemClick($event,settings)"> 

@@ -972,3 +972,19 @@ body .layout-wrapper.layout-compact {
       font-size: 14px; }
   .layout-wrapper.layout-compact .layout-container.menu-layout-horizontal .layout-main {
     padding-top: 130px; } }
+
+.layout-wrapper {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.layout-container.menu-layout-static {
+    height: 100%;
+}
+
+.layout-main {
+    height: calc(100% - 112px);
+}

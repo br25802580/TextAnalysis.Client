@@ -1,21 +1,17 @@
 textarea{
-    height: 100px;
-    max-height: 150px;
     resize: none;
+        flex-grow: 1;
 }
 
-.layout-wrapper {
+.ui-g.ui-fluid {
     height: 100%;
 }
 
-html {
+.card.card-w-title {
     height: 100%;
 }
 
-.layout-container.menu-layout-static {
-    height: 100%;
-}
-
-.layout-main {
-    height: calc(100% - 112px);
+.card.card-w-title {
+    display: flex;
+    flex-direction: column;
 }
