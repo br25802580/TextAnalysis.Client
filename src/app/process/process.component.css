@@ -1,0 +1,21 @@
+textarea{
+    height: 100px;
+    max-height: 150px;
+    resize: none;
+}
+
+.layout-wrapper {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.layout-container.menu-layout-static {
+    height: 100%;
+}
+
+.layout-main {
+    height: calc(100% - 112px);
+}
