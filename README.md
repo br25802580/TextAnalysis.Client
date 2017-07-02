@@ -18,5 +18,6 @@ ng serve
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Credits
-The base project was taken from primefaces site: https://www.primefaces.org/layouts/ultima-ng/
-All rights reserved. Commercial use of this project requires payment.
+The base project theme was taken from primefaces site: https://www.primefaces.org/layouts/ultima-ng/
+
+All rights reserved. Commercial use of this project theme requires payment to primefaces organization.
