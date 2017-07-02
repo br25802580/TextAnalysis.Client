@@ -16,3 +16,7 @@ Open cmd at the main folder root, and run the following command:
 ng serve
 ```
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Credits
+The base project was taken from primefaces site: https://www.primefaces.org/layouts/ultima-ng/
+All rights reserved. Commercial use of this project requires payment.

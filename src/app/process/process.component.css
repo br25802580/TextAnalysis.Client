@@ -9,9 +9,31 @@ textarea{
 
 .card.card-w-title {
     height: 100%;
+    overflow: auto;
 }
 
 .card.card-w-title {
     display: flex;
     flex-direction: column;
+}
+
+span.number {
+    background-color:rgb(237, 235, 235) /*rgba(139, 195, 74, 0.39)*/;
+    font-weight: bold;
+    padding: 3px 5px;
+    margin: 3px 3px 3px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(117, 117, 117, 0.42);
+    box-shadow: 2px 2px 4px rgba(37, 22, 22, 0.17);
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+div.result{
+    margin:5px 0; 
+}
+
+.card .ui-button
+{
+    margin-top: 5px;
 }

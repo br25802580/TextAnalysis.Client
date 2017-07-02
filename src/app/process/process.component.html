@@ -12,9 +12,10 @@
     </div>
   </div>
   <div class="ui-g-12 ui-lg-6">
-    <div class="card card-w-title">
+    <div class="card card-w-title result">
       <h1>Result</h1>
-      <div *ngFor="let item of result">
+      <div class="result" *ngFor="let item of result; let i = index">
+        <span class="number" > {{i+1}}.</span>
         {{item}}
       </div>
     </div>
